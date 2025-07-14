@@ -40,12 +40,17 @@ try:
     columns_for_correlation = [
         'mass',
         'radius',
+        'log_g',            # Added
         'orbital_period',
         'semi_major_axis',
+        'eccentricity',     # Added
         'temp_calculated',
+        'geometric_albedo', # Added
         'star_mass',
+        'star_radius',      # Added
         'star_teff',
-        'discovered'
+        'star_age',         # Added
+        'star_metallicity' 
     ]
     
     # Add SQL Server bracket notation to column names for safe querying
